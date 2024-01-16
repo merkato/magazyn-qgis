@@ -14,6 +14,8 @@ Dla warstwy g_compartment (oddziały leśne) styl uwzględnia tylko numer oddzia
 
 Trzy dostępne style warstwy: dla mapy drzewostanowej, typów siedliskowych lasu, oraz gospodarczej
 
-# Inne projekty
-## Szkicownik leśniczego
-## Docelowa Sieć Drogowa
+# SLMN
+
+Zbiór modeli processingu dla wykonania kontroli standardu SLMN, oraz dodatkowe narzędzia do pracy z tyldami, działkami ewidencyjnymi, tworzenie obiektów podstawowych (opodst).
+
+
