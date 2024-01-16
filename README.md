@@ -18,4 +18,4 @@ Trzy dostępne style warstwy: dla mapy drzewostanowej, typów siedliskowych lasu
 
 Zbiór modeli processingu dla wykonania kontroli standardu SLMN, oraz dodatkowe narzędzia do pracy z tyldami, działkami ewidencyjnymi, tworzenie obiektów podstawowych (opodst).
 
-
+Aby wykorzystać model Wylicz tyldy - Użytek/Wydzielenie należy wstępnie przygotować projekt QGIS, tworząc niezbędne wiązania i złączenia do tabel "adresowych" i opisowych. Instrukcja przygotowania [tutaj](instrukcja_tyldy.md)
