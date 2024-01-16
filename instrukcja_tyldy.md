@@ -3,6 +3,7 @@ Model Wyliczanie Tyld wymaga wstępnego przygotowania projektu w programie QGIS.
 # Otwarcie warstw SLMN
 
 Otwórz warstwy ciek_a, ciek_lin, kom_a, kom_lin, line_a, line_lin, oddz_pol, wydz_pol, uzyt_pol w standardzie (SLMN).
+
 # Otwarcie warstw SILP.db
 
 Ze zbioru SILP.db (paczka mLas) wczytaj warstwy f_arodes, f_parcel_land_use, f_arod_land_use
