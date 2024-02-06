@@ -134,6 +134,17 @@
                 <Option value="2" type="int" name="type"/>
                 <Option value="integer" type="QString" name="type_name"/>
               </Option>
+              <Option type="Map">
+                <Option value="concatenate_unique" type="QString" name="aggregate"/>
+                <Option value="," type="QString" name="delimiter"/>
+                <Option value="&quot;kod_ob&quot;" type="QString" name="input"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="kod_obiektu" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="0" type="int" name="sub_type"/>
+                <Option value="10" type="int" name="type"/>
+                <Option value="text" type="QString" name="type_name"/>
+              </Option>
             </Option>
           </Option>
         </Option>
@@ -169,8 +180,8 @@
       </Option>
       <Option value="Eksportuj do arkusza kalkulacyjnego" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="735" type="double" name="component_pos_x"/>
-      <Option value="1095" type="double" name="component_pos_y"/>
+      <Option value="751" type="double" name="component_pos_x"/>
+      <Option value="1206" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:exporttospreadsheet_1" type="QString" name="id"/>
@@ -302,8 +313,8 @@
           </Option>
           <Option value="Przypisano wiele obiektów do jednego adresu leśnego" type="QString" name="component_description"/>
           <Option value="30" type="double" name="component_height"/>
-          <Option value="1035" type="double" name="component_pos_x"/>
-          <Option value="1185" type="double" name="component_pos_y"/>
+          <Option value="1295" type="double" name="component_pos_x"/>
+          <Option value="1199" type="double" name="component_pos_y"/>
           <Option value="210" type="double" name="component_width"/>
           <Option type="invalid" name="default_value"/>
           <Option value="false" type="bool" name="mandatory"/>
@@ -381,8 +392,8 @@
           </Option>
           <Option value="Przypisano wiele adresów do id_obiektu" type="QString" name="component_description"/>
           <Option value="30" type="double" name="component_height"/>
-          <Option value="1035" type="double" name="component_pos_x"/>
-          <Option value="1155" type="double" name="component_pos_y"/>
+          <Option value="1297" type="double" name="component_pos_x"/>
+          <Option value="1145" type="double" name="component_pos_y"/>
           <Option value="210" type="double" name="component_width"/>
           <Option type="invalid" name="default_value"/>
           <Option value="false" type="bool" name="mandatory"/>
@@ -439,8 +450,8 @@
       </Option>
       <Option value="Wybór tyldy tylko wewnątrz oddziału przypisanego" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="375" type="double" name="component_pos_x"/>
-      <Option value="855" type="double" name="component_pos_y"/>
+      <Option value="483" type="double" name="component_pos_x"/>
+      <Option value="881" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:extractbyexpression_1" type="QString" name="id"/>
@@ -460,8 +471,8 @@
           </Option>
           <Option value="Tyldy" type="QString" name="component_description"/>
           <Option value="60" type="double" name="component_height"/>
-          <Option value="1035" type="double" name="component_pos_x"/>
-          <Option value="840" type="double" name="component_pos_y"/>
+          <Option value="1295" type="double" name="component_pos_x"/>
+          <Option value="952" type="double" name="component_pos_y"/>
           <Option value="210" type="double" name="component_width"/>
           <Option type="invalid" name="default_value"/>
           <Option value="false" type="bool" name="mandatory"/>
@@ -483,6 +494,73 @@
         <Option type="List" name="INPUT">
           <Option type="Map">
             <Option value="native:refactorfields_1" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="Map" name="native:extractbyexpression_2">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:extractbyexpression" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="933" type="double" name="component_pos_x"/>
+        <Option value="1059" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Wyodrębnij za pomocą wyrażenia" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="749" type="double" name="component_pos_x"/>
+      <Option value="1095" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:extractbyexpression_2" type="QString" name="id"/>
+      <Option type="Map" name="outputs">
+        <Option type="Map" name="Tyldy w wydzieleniu">
+          <Option value="native:extractbyexpression_2" type="QString" name="child_id"/>
+          <Option value="" type="QString" name="color"/>
+          <Option type="Map" name="comment">
+            <Option value="" type="QString" name="color"/>
+            <Option value="" type="QString" name="component_description"/>
+            <Option value="60" type="double" name="component_height"/>
+            <Option value="0" type="double" name="component_pos_x"/>
+            <Option value="0" type="double" name="component_pos_y"/>
+            <Option value="100" type="double" name="component_width"/>
+            <Option value="true" type="bool" name="outputs_collapsed"/>
+            <Option value="true" type="bool" name="parameters_collapsed"/>
+          </Option>
+          <Option value="Tyldy w wydzieleniu" type="QString" name="component_description"/>
+          <Option value="30" type="double" name="component_height"/>
+          <Option value="1292" type="double" name="component_pos_x"/>
+          <Option value="1103" type="double" name="component_pos_y"/>
+          <Option value="200" type="double" name="component_width"/>
+          <Option type="invalid" name="default_value"/>
+          <Option value="false" type="bool" name="mandatory"/>
+          <Option value="Tyldy w wydzieleniu" type="QString" name="name"/>
+          <Option value="OUTPUT" type="QString" name="output_name"/>
+          <Option value="true" type="bool" name="outputs_collapsed"/>
+          <Option value="true" type="bool" name="parameters_collapsed"/>
+        </Option>
+      </Option>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="EXPRESSION">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="&quot;dl_tyldy_wydzielenie&quot; > @prg_odfiltrowania_tyldy " type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="native:refactorfields_6" type="QString" name="child_id"/>
             <Option value="OUTPUT" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
@@ -607,9 +685,9 @@
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
       <Option value="Relacja tabeli opisowej uzytku" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="150" type="double" name="component_pos_x"/>
-      <Option value="255" type="double" name="component_pos_y"/>
+      <Option value="57" type="double" name="component_height"/>
+      <Option value="116" type="double" name="component_pos_x"/>
+      <Option value="118.5" type="double" name="component_pos_y"/>
       <Option value="180" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:flattenrelationships_4" type="QString" name="id"/>
@@ -642,8 +720,8 @@
       </Option>
       <Option value="Obiekt w oddziale" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="435" type="double" name="component_pos_x"/>
-      <Option value="472.86833855799375" type="double" name="component_pos_y"/>
+      <Option value="252.9300026532758" type="double" name="component_pos_x"/>
+      <Option value="429.340820648382" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:intersection_1" type="QString" name="id"/>
@@ -712,8 +790,8 @@
       </Option>
       <Option value="Obiekt w użytku" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="195" type="double" name="component_pos_x"/>
-      <Option value="532.8683385579938" type="double" name="component_pos_y"/>
+      <Option value="201.19249270349152" type="double" name="component_pos_x"/>
+      <Option value="552.8508392213128" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:intersection_2" type="QString" name="id"/>
@@ -783,8 +861,8 @@
       </Option>
       <Option value="Tylda w wydzieleniu" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="735" type="double" name="component_pos_x"/>
-      <Option value="885" type="double" name="component_pos_y"/>
+      <Option value="724" type="double" name="component_pos_x"/>
+      <Option value="886" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:intersection_3" type="QString" name="id"/>
@@ -800,7 +878,7 @@
         </Option>
         <Option type="List" name="INPUT">
           <Option type="Map">
-            <Option value="native:extractbyexpression_1" type="QString" name="child_id"/>
+            <Option value="native:refactorfields_1" type="QString" name="child_id"/>
             <Option value="OUTPUT" type="QString" name="output_name"/>
             <Option value="1" type="int" name="source"/>
           </Option>
@@ -815,8 +893,9 @@
         </Option>
         <Option type="List" name="OVERLAY">
           <Option type="Map">
-            <Option value="wydzielenia" type="QString" name="parameter_name"/>
-            <Option value="0" type="int" name="source"/>
+            <Option value="native:joinattributestable_5" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
           </Option>
         </Option>
         <Option type="List" name="OVERLAY_FIELDS">
@@ -825,6 +904,7 @@
             <Option type="StringList" name="static_value">
               <Option value="f_arodes_adress_forest" type="QString"/>
               <Option value="f_subarea_area_type_cd" type="QString"/>
+              <Option value="nr_wew" type="QString"/>
             </Option>
           </Option>
         </Option>
@@ -874,8 +954,8 @@
           </Option>
           <Option value="Obiektowi nie przypisano żadnego adresu leśnego" type="QString" name="component_description"/>
           <Option value="30" type="double" name="component_height"/>
-          <Option value="1035" type="double" name="component_pos_x"/>
-          <Option value="705" type="double" name="component_pos_y"/>
+          <Option value="1287" type="double" name="component_pos_x"/>
+          <Option value="565" type="double" name="component_pos_y"/>
           <Option value="210" type="double" name="component_width"/>
           <Option type="invalid" name="default_value"/>
           <Option value="false" type="bool" name="mandatory"/>
@@ -958,8 +1038,8 @@
       </Option>
       <Option value="Adres lesny oddzialu" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="675" type="double" name="component_pos_x"/>
-      <Option value="472.86833855799375" type="double" name="component_pos_y"/>
+      <Option value="523.8075072965084" type="double" name="component_pos_x"/>
+      <Option value="487.71084452786437" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:joinattributestable_2" type="QString" name="id"/>
@@ -1019,6 +1099,84 @@
         </Option>
       </Option>
     </Option>
+    <Option type="Map" name="native:joinattributestable_3">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:joinattributestable" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="941" type="double" name="component_pos_x"/>
+        <Option value="736" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Dołącz adres leśny wydzielenia" type="QString" name="component_description"/>
+      <Option value="32" type="double" name="component_height"/>
+      <Option value="760" type="double" name="component_pos_x"/>
+      <Option value="747" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:joinattributestable_3" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="nr_wew" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELDS_TO_COPY">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="StringList" name="static_value">
+              <Option value="adress_forest" type="QString"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_2">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="arodes_int_num" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="wydzielenia" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_2">
+          <Option type="Map">
+            <Option value="tabela_numerw_wewntrznych_f_arodes" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREFIX">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="f_arodes_" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
     <Option type="Map" name="native:joinattributestable_4">
       <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
@@ -1036,8 +1194,8 @@
       </Option>
       <Option value="Dołącz arod_land_use" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="435" type="double" name="component_pos_x"/>
-      <Option value="735" type="double" name="component_pos_y"/>
+      <Option value="486" type="double" name="component_pos_x"/>
+      <Option value="740" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:joinattributestable_4" type="QString" name="id"/>
@@ -1098,6 +1256,85 @@
         </Option>
       </Option>
     </Option>
+    <Option type="Map" name="native:joinattributestable_5">
+      <Option value="true" type="bool" name="active"/>
+      <Option name="alg_config"/>
+      <Option value="native:joinattributestable" type="QString" name="alg_id"/>
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="896" type="double" name="component_pos_x"/>
+        <Option value="762" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="Dołącz typ wydzielenia" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="751" type="double" name="component_pos_x"/>
+      <Option value="822" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option name="dependencies"/>
+      <Option value="native:joinattributestable_5" type="QString" name="id"/>
+      <Option name="outputs"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+      <Option type="Map" name="params">
+        <Option type="List" name="DISCARD_NONMATCHING">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="false" type="bool" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="nr_wew" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELDS_TO_COPY">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option type="StringList" name="static_value">
+              <Option value="area_type_cd" type="QString"/>
+            </Option>
+          </Option>
+        </Option>
+        <Option type="List" name="FIELD_2">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="arodes_int_num" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT">
+          <Option type="Map">
+            <Option value="native:joinattributestable_3" type="QString" name="child_id"/>
+            <Option value="OUTPUT" type="QString" name="output_name"/>
+            <Option value="1" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="INPUT_2">
+          <Option type="Map">
+            <Option value="tabela_opisowa_wydzielenia_f_subarea" type="QString" name="parameter_name"/>
+            <Option value="0" type="int" name="source"/>
+          </Option>
+        </Option>
+        <Option type="List" name="METHOD">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="1" type="int" name="static_value"/>
+          </Option>
+        </Option>
+        <Option type="List" name="PREFIX">
+          <Option type="Map">
+            <Option value="2" type="int" name="source"/>
+            <Option value="f_subarea_" type="QString" name="static_value"/>
+          </Option>
+        </Option>
+      </Option>
+    </Option>
     <Option type="Map" name="native:mergevectorlayers_1">
       <Option value="true" type="bool" name="active"/>
       <Option name="alg_config"/>
@@ -1115,8 +1352,8 @@
       </Option>
       <Option value="Złącz warstwy relacyjne" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="450" type="double" name="component_pos_x"/>
-      <Option value="315" type="double" name="component_pos_y"/>
+      <Option value="323" type="double" name="component_pos_x"/>
+      <Option value="309" type="double" name="component_pos_y"/>
       <Option value="180" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:mergevectorlayers_1" type="QString" name="id"/>
@@ -1177,9 +1414,9 @@
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
       <Option value="Wylicz adresy, uporządkuj tyldy linii" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="525" type="double" name="component_pos_x"/>
-      <Option value="795" type="double" name="component_pos_y"/>
+      <Option value="37" type="double" name="component_height"/>
+      <Option value="488" type="double" name="component_pos_x"/>
+      <Option value="799.5" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:refactorfields_1" type="QString" name="id"/>
@@ -1229,7 +1466,7 @@
                 <Option value="" type="QString" name="comment"/>
                 <Option value="&quot;nr_wew&quot;" type="QString" name="expression"/>
                 <Option value="10" type="int" name="length"/>
-                <Option value="nr_wew" type="QString" name="name"/>
+                <Option value="nr_wew_tyldy" type="QString" name="name"/>
                 <Option value="0" type="int" name="precision"/>
                 <Option value="0" type="int" name="sub_type"/>
                 <Option value="4" type="int" name="type"/>
@@ -1315,7 +1552,7 @@
               <Option type="Map">
                 <Option value="" type="QString" name="alias"/>
                 <Option value="" type="QString" name="comment"/>
-                <Option value="round(((&quot;szer&quot; * $length)/'10000'),4)" type="QString" name="expression"/>
+                <Option value="round(((&quot;szer&quot; * length($geometry))/'10000'),4)" type="QString" name="expression"/>
                 <Option value="0" type="int" name="length"/>
                 <Option value="pow_tyldy_geom" type="QString" name="name"/>
                 <Option value="0" type="int" name="precision"/>
@@ -1326,7 +1563,7 @@
               <Option type="Map">
                 <Option value="" type="QString" name="alias"/>
                 <Option value="" type="QString" name="comment"/>
-                <Option value="round((((&quot;szer&quot; * $length)/'10000')/ &quot;alu_arod_land_use_area&quot;) ,2)" type="QString" name="expression"/>
+                <Option value="round((((&quot;szer&quot; *  length($geometry))/'10000')/ &quot;alu_arod_land_use_area&quot;) ,2)" type="QString" name="expression"/>
                 <Option value="0" type="int" name="length"/>
                 <Option value="propocja_silp_geometria" type="QString" name="name"/>
                 <Option value="0" type="int" name="precision"/>
@@ -1337,7 +1574,7 @@
               <Option type="Map">
                 <Option value="" type="QString" name="alias"/>
                 <Option value="" type="QString" name="comment"/>
-                <Option value="round($length,4)" type="QString" name="expression"/>
+                <Option value="round( length($geometry),4)" type="QString" name="expression"/>
                 <Option value="0" type="int" name="length"/>
                 <Option value="dl_tyldy" type="QString" name="name"/>
                 <Option value="0" type="int" name="precision"/>
@@ -1665,8 +1902,8 @@
       </Option>
       <Option value="Zmień pola tabeli uzytkow" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="225" type="double" name="component_pos_x"/>
-      <Option value="315" type="double" name="component_pos_y"/>
+      <Option value="130" type="double" name="component_pos_x"/>
+      <Option value="225" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:refactorfields_5" type="QString" name="id"/>
@@ -1773,38 +2010,12 @@
       </Option>
       <Option value="Zmień pola opodst" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="738.9341692789968" type="double" name="component_pos_x"/>
-      <Option value="983.8518808777429" type="double" name="component_pos_y"/>
+      <Option value="747.9341692789968" type="double" name="component_pos_x"/>
+      <Option value="1007.8518808777429" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option name="dependencies"/>
       <Option value="native:refactorfields_6" type="QString" name="id"/>
-      <Option type="Map" name="outputs">
-        <Option type="Map" name="Tyldy w wydzieleniu">
-          <Option value="native:refactorfields_6" type="QString" name="child_id"/>
-          <Option value="" type="QString" name="color"/>
-          <Option type="Map" name="comment">
-            <Option value="" type="QString" name="color"/>
-            <Option value="" type="QString" name="component_description"/>
-            <Option value="60" type="double" name="component_height"/>
-            <Option value="0" type="double" name="component_pos_x"/>
-            <Option value="0" type="double" name="component_pos_y"/>
-            <Option value="100" type="double" name="component_width"/>
-            <Option value="true" type="bool" name="outputs_collapsed"/>
-            <Option value="true" type="bool" name="parameters_collapsed"/>
-          </Option>
-          <Option value="Tyldy w wydzieleniu" type="QString" name="component_description"/>
-          <Option value="30" type="double" name="component_height"/>
-          <Option value="1035" type="double" name="component_pos_x"/>
-          <Option value="1035" type="double" name="component_pos_y"/>
-          <Option value="210" type="double" name="component_width"/>
-          <Option type="invalid" name="default_value"/>
-          <Option value="false" type="bool" name="mandatory"/>
-          <Option value="Tyldy w wydzieleniu" type="QString" name="name"/>
-          <Option value="OUTPUT" type="QString" name="output_name"/>
-          <Option value="true" type="bool" name="outputs_collapsed"/>
-          <Option value="true" type="bool" name="parameters_collapsed"/>
-        </Option>
-      </Option>
+      <Option name="outputs"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
       <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option type="Map" name="params">
@@ -1848,13 +2059,24 @@
               <Option type="Map">
                 <Option value="" type="QString" name="alias"/>
                 <Option value="" type="QString" name="comment"/>
-                <Option value="&quot;nr_wew&quot;" type="QString" name="expression"/>
+                <Option value="&quot;nr_wew_tyldy&quot;" type="QString" name="expression"/>
                 <Option value="10" type="int" name="length"/>
-                <Option value="nr_wew" type="QString" name="name"/>
+                <Option value="nr_wew_tyldy" type="QString" name="name"/>
                 <Option value="0" type="int" name="precision"/>
                 <Option value="0" type="int" name="sub_type"/>
                 <Option value="4" type="int" name="type"/>
                 <Option value="int8" type="QString" name="type_name"/>
+              </Option>
+              <Option type="Map">
+                <Option value="" type="QString" name="alias"/>
+                <Option value="" type="QString" name="comment"/>
+                <Option value="&quot;nr_wew&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="nr_wew_wydzielenia" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="0" type="int" name="sub_type"/>
+                <Option value="10" type="int" name="type"/>
+                <Option value="text" type="QString" name="type_name"/>
               </Option>
               <Option type="Map">
                 <Option value="" type="QString" name="alias"/>
@@ -1873,6 +2095,17 @@
                 <Option value="&quot;klucz_tyldy&quot;" type="QString" name="expression"/>
                 <Option value="0" type="int" name="length"/>
                 <Option value="klucz_tyldy" type="QString" name="name"/>
+                <Option value="0" type="int" name="precision"/>
+                <Option value="0" type="int" name="sub_type"/>
+                <Option value="10" type="int" name="type"/>
+                <Option value="text" type="QString" name="type_name"/>
+              </Option>
+              <Option type="Map">
+                <Option value="" type="QString" name="alias"/>
+                <Option value="" type="QString" name="comment"/>
+                <Option value="&quot;nr_wew&quot;||'_'||&quot;klucz_uzytku&quot;" type="QString" name="expression"/>
+                <Option value="0" type="int" name="length"/>
+                <Option value="klucz_wydz_ws" type="QString" name="name"/>
                 <Option value="0" type="int" name="precision"/>
                 <Option value="0" type="int" name="sub_type"/>
                 <Option value="10" type="int" name="type"/>
@@ -1958,20 +2191,9 @@
               <Option type="Map">
                 <Option value="" type="QString" name="alias"/>
                 <Option value="" type="QString" name="comment"/>
-                <Option value="round((($length *&quot;szer_silp&quot;)/'10000'),4)" type="QString" name="expression"/>
+                <Option value="round((( length($geometry) *&quot;szer_silp&quot;)/'10000'),4)" type="QString" name="expression"/>
                 <Option value="0" type="int" name="length"/>
                 <Option value="pow_tyldy_wydzielenie_geom" type="QString" name="name"/>
-                <Option value="0" type="int" name="precision"/>
-                <Option value="0" type="int" name="sub_type"/>
-                <Option value="6" type="int" name="type"/>
-                <Option value="double precision" type="QString" name="type_name"/>
-              </Option>
-              <Option type="Map">
-                <Option value="" type="QString" name="alias"/>
-                <Option value="" type="QString" name="comment"/>
-                <Option value="&quot;propocja_silp_geometria&quot;" type="QString" name="expression"/>
-                <Option value="0" type="int" name="length"/>
-                <Option value="propocja_silp_geometria" type="QString" name="name"/>
                 <Option value="0" type="int" name="precision"/>
                 <Option value="0" type="int" name="sub_type"/>
                 <Option value="6" type="int" name="type"/>
@@ -1991,20 +2213,9 @@
               <Option type="Map">
                 <Option value="" type="QString" name="alias"/>
                 <Option value="" type="QString" name="comment"/>
-                <Option value="round($length,2)" type="QString" name="expression"/>
+                <Option value="round(length($geometry),2)" type="QString" name="expression"/>
                 <Option value="0" type="int" name="length"/>
                 <Option value="dl_tyldy_wydzielenie" type="QString" name="name"/>
-                <Option value="0" type="int" name="precision"/>
-                <Option value="0" type="int" name="sub_type"/>
-                <Option value="6" type="int" name="type"/>
-                <Option value="double precision" type="QString" name="type_name"/>
-              </Option>
-              <Option type="Map">
-                <Option value="" type="QString" name="alias"/>
-                <Option value="" type="QString" name="comment"/>
-                <Option value="round(((($length *&quot;szer_silp&quot;)/'10000')/&quot;pow_tyldy_geom&quot;),2)" type="QString" name="expression"/>
-                <Option value="0" type="int" name="length"/>
-                <Option value="proporcja_dl_wydz_uz" type="QString" name="name"/>
                 <Option value="0" type="int" name="precision"/>
                 <Option value="0" type="int" name="sub_type"/>
                 <Option value="6" type="int" name="type"/>
@@ -2035,12 +2246,14 @@
     </Option>
   </Option>
   <Option type="Map" name="designerParameterValues">
-    <Option value="a_line_lin_fee55275_ff71_4e42_90c4_7f7d5b040d7a" type="QString" name="linie"/>
-    <Option value="a_oddz_pol_002d13b6_55a2_44a8_b538_715369289536" type="QString" name="oddziay"/>
-    <Option type="QgsProcessingOutputLayerDefinition" name="poczone">
+    <Option value="a_ciek_lin_0e4e4252_35ae_4196_95d1_c6d1bc6e33e0" type="QString" name="cieki"/>
+    <Option value="a_kom_lin_80cd42ee_2a4a_4992_bf9a_5928ed9198b8" type="QString" name="komunikacja"/>
+    <Option value="a_line_lin_8b48c8e1_c6be_4ac3_923c_f4f7b0938daf" type="QString" name="linie"/>
+    <Option value="a_oddz_pol_9154568c_1c27_44eb_8988_efd389a490ee" type="QString" name="oddziay"/>
+    <Option type="QgsProcessingOutputLayerDefinition" name="przypisano_wiele_adresw_do_id_obiektu">
       <Option type="Map">
         <Option type="Map" name="create_options">
-          <Option value="System" type="QString" name="fileEncoding"/>
+          <Option value="windows-1250" type="QString" name="fileEncoding"/>
         </Option>
         <Option type="Map" name="sink">
           <Option value="true" type="bool" name="active"/>
@@ -2049,8 +2262,47 @@
         </Option>
       </Option>
     </Option>
-    <Option value="f_arodes_77a493b1_74e0_4045_9ec4_a663c60f347d" type="QString" name="tabela_numerw_wewntrznych"/>
-    <Option value="a_uzyt_pol_bbb60abb_39a1_4816_bf1d_17e078393de6" type="QString" name="uytki"/>
+    <Option type="QgsProcessingOutputLayerDefinition" name="przypisano_wiele_obiektw_do_jednego_adresu_lenego">
+      <Option type="Map">
+        <Option type="Map" name="create_options">
+          <Option value="windows-1250" type="QString" name="fileEncoding"/>
+        </Option>
+        <Option type="Map" name="sink">
+          <Option value="true" type="bool" name="active"/>
+          <Option value="1" type="int" name="type"/>
+          <Option value="TEMPORARY_OUTPUT" type="QString" name="val"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option value="f_arodes_f1829054_9a16_4296_b5b3_60748092fcfa" type="QString" name="tabela_numerw_wewntrznych_f_arodes"/>
+    <Option value="f_subarea_d486e628_18f1_440b_95d1_38b0d6846db0" type="QString" name="tabela_opisowa_wydzielenia_f_subarea"/>
+    <Option value="f_arod_land_use_f9830505_91c7_498c_a575_163ac9f4d39b" type="QString" name="tabela_wydzielenieuzytek_f_arod_land_use"/>
+    <Option type="QgsProcessingOutputLayerDefinition" name="tyldy">
+      <Option type="Map">
+        <Option type="Map" name="create_options">
+          <Option value="windows-1250" type="QString" name="fileEncoding"/>
+        </Option>
+        <Option type="Map" name="sink">
+          <Option value="true" type="bool" name="active"/>
+          <Option value="1" type="int" name="type"/>
+          <Option value="TEMPORARY_OUTPUT" type="QString" name="val"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option type="QgsProcessingOutputLayerDefinition" name="tyldy_w_wydzieleniu">
+      <Option type="Map">
+        <Option type="Map" name="create_options">
+          <Option value="windows-1250" type="QString" name="fileEncoding"/>
+        </Option>
+        <Option type="Map" name="sink">
+          <Option value="true" type="bool" name="active"/>
+          <Option value="1" type="int" name="type"/>
+          <Option value="TEMPORARY_OUTPUT" type="QString" name="val"/>
+        </Option>
+      </Option>
+    </Option>
+    <Option value="a_uzyt_pol_dafcb638_3359_4487_b68e_cc20ced58c77" type="QString" name="uytki_a_uzyt_pol"/>
+    <Option value="a_wydz_pol_cb65ceb6_bf3b_4de9_b056_11c4da33d26d" type="QString" name="wydzielenia"/>
   </Option>
   <Option type="List" name="groupBoxes">
     <Option type="Map">
@@ -2067,9 +2319,9 @@
     <Option type="Map">
       <Option value="" type="QString" name="color"/>
       <Option value="Przygotowanie danych źródłowych" type="QString" name="component_description"/>
-      <Option value="360" type="double" name="component_height"/>
+      <Option value="349" type="double" name="component_height"/>
       <Option value="442.86833855799364" type="double" name="component_pos_x"/>
-      <Option value="180" type="double" name="component_pos_y"/>
+      <Option value="174.5" type="double" name="component_pos_y"/>
       <Option value="854.2633228840124" type="double" name="component_width"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
       <Option value="true" type="bool" name="parameters_collapsed"/>
@@ -2089,10 +2341,10 @@
     <Option type="Map">
       <Option value="237,187,188,255,rgb:0.92941176470588238,0.73333333333333328,0.73725490196078436,1" type="QString" name="color"/>
       <Option value="Wyniki" type="QString" name="component_description"/>
-      <Option value="600" type="double" name="component_height"/>
-      <Option value="1029.7147635920069" type="double" name="component_pos_x"/>
-      <Option value="930" type="double" name="component_pos_y"/>
-      <Option value="259.42952718401375" type="double" name="component_width"/>
+      <Option value="707.9999999999999" type="double" name="component_height"/>
+      <Option value="1298.7147635920069" type="double" name="component_pos_x"/>
+      <Option value="878" type="double" name="component_pos_y"/>
+      <Option value="269.42952718401375" type="double" name="component_width"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
       <Option value="true" type="bool" name="parameters_collapsed"/>
       <Option value="{a930d5e8-6c0d-4c2c-bece-1d5792e34d42}" type="QString" name="uuid"/>
@@ -2187,6 +2439,19 @@
       <Option value="oddziay" type="QString" name="name"/>
       <Option value="vector" type="QString" name="parameter_type"/>
     </Option>
+    <Option type="Map" name="prg_odfiltrowania_tyldy">
+      <Option value="1" type="int" name="data_type"/>
+      <Option value="0.02" type="double" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option value="Próg odfiltrowania tyldy" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option value="0.1" type="double" name="max"/>
+      <Option name="metadata"/>
+      <Option value="0.001" type="double" name="min"/>
+      <Option value="prg_odfiltrowania_tyldy" type="QString" name="name"/>
+      <Option value="number" type="QString" name="parameter_type"/>
+    </Option>
     <Option type="Map" name="przypisano_wiele_adresw_do_id_obiektu">
       <Option value="true" type="bool" name="create_by_default"/>
       <Option value="-1" type="int" name="data_type"/>
@@ -2236,6 +2501,19 @@
       <Option value="tabela_numerw_wewntrznych_f_arodes" type="QString" name="name"/>
       <Option value="vector" type="QString" name="parameter_type"/>
     </Option>
+    <Option type="Map" name="tabela_opisowa_wydzielenia_f_subarea">
+      <Option type="List" name="data_types">
+        <Option value="5" type="int"/>
+      </Option>
+      <Option type="invalid" name="default"/>
+      <Option type="invalid" name="defaultGui"/>
+      <Option value="Tabela opisowa wydzielenia (f_subarea)" type="QString" name="description"/>
+      <Option value="0" type="int" name="flags"/>
+      <Option value="" type="QString" name="help"/>
+      <Option name="metadata"/>
+      <Option value="tabela_opisowa_wydzielenia_f_subarea" type="QString" name="name"/>
+      <Option value="vector" type="QString" name="parameter_type"/>
+    </Option>
     <Option type="Map" name="tabela_wydzielenieuzytek_f_arod_land_use">
       <Option type="List" name="data_types">
         <Option value="5" type="int"/>
@@ -2276,13 +2554,13 @@
       <Option value="0" type="int" name="flags"/>
       <Option value="" type="QString" name="help"/>
       <Option type="Map" name="metadata">
-        <Option value="native:refactorfields_6" type="QString" name="_modelChildId"/>
+        <Option value="native:extractbyexpression_2" type="QString" name="_modelChildId"/>
         <Option value="Tyldy w wydzieleniu" type="QString" name="_modelChildOutputName"/>
         <Option value="native" type="QString" name="_modelChildProvider"/>
       </Option>
       <Option value="tyldy_w_wydzieleniu" type="QString" name="name"/>
       <Option value="sink" type="QString" name="parameter_type"/>
-      <Option value="true" type="bool" name="supports_append"/>
+      <Option value="false" type="bool" name="supports_append"/>
       <Option value="true" type="bool" name="supports_non_file_outputs"/>
     </Option>
     <Option type="Map" name="uytki_a_uzyt_pol">
@@ -2313,13 +2591,16 @@
     </Option>
   </Option>
   <Option type="StringList" name="parameterOrder">
-    <Option value="tabela_numerw_wewntrznych_f_arodes" type="QString"/>
-    <Option value="tabela_wydzielenieuzytek_f_arod_land_use" type="QString"/>
     <Option value="cieki" type="QString"/>
     <Option value="komunikacja" type="QString"/>
     <Option value="linie" type="QString"/>
     <Option value="oddziay" type="QString"/>
     <Option value="uytki_a_uzyt_pol" type="QString"/>
+    <Option value="wydzielenia" type="QString"/>
+    <Option value="tabela_numerw_wewntrznych_f_arodes" type="QString"/>
+    <Option value="tabela_wydzielenieuzytek_f_arod_land_use" type="QString"/>
+    <Option value="tabela_opisowa_wydzielenia_f_subarea" type="QString"/>
+    <Option value="prg_odfiltrowania_tyldy" type="QString"/>
   </Option>
   <Option type="Map" name="parameters">
     <Option type="Map" name="cieki">
@@ -2399,10 +2680,31 @@
       </Option>
       <Option value="oddziay" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="615" type="double" name="component_pos_x"/>
-      <Option value="412.86833855799375" type="double" name="component_pos_y"/>
+      <Option value="692.7375099497843" type="double" name="component_pos_x"/>
+      <Option value="402.7633425379075" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option value="oddziay" type="QString" name="name"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="prg_odfiltrowania_tyldy">
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="1132" type="double" name="component_pos_x"/>
+        <Option value="487" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="prg_odfiltrowania_tyldy" type="QString" name="component_description"/>
+      <Option value="30" type="double" name="component_height"/>
+      <Option value="1029" type="double" name="component_pos_x"/>
+      <Option value="1047" type="double" name="component_pos_y"/>
+      <Option value="200" type="double" name="component_width"/>
+      <Option value="prg_odfiltrowania_tyldy" type="QString" name="name"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
       <Option value="true" type="bool" name="parameters_collapsed"/>
     </Option>
@@ -2419,11 +2721,32 @@
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
       <Option value="tabela_numerw_wewntrznych_f_arodes" type="QString" name="component_description"/>
-      <Option value="60" type="double" name="component_height"/>
-      <Option value="435" type="double" name="component_pos_x"/>
-      <Option value="547.8683385579938" type="double" name="component_pos_y"/>
+      <Option value="51" type="double" name="component_height"/>
+      <Option value="988" type="double" name="component_pos_x"/>
+      <Option value="432.36833855799375" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option value="tabela_numerw_wewntrznych_f_arodes" type="QString" name="name"/>
+      <Option value="true" type="bool" name="outputs_collapsed"/>
+      <Option value="true" type="bool" name="parameters_collapsed"/>
+    </Option>
+    <Option type="Map" name="tabela_opisowa_wydzielenia_f_subarea">
+      <Option value="" type="QString" name="color"/>
+      <Option type="Map" name="comment">
+        <Option value="" type="QString" name="color"/>
+        <Option value="" type="QString" name="component_description"/>
+        <Option value="60" type="double" name="component_height"/>
+        <Option value="1162" type="double" name="component_pos_x"/>
+        <Option value="534" type="double" name="component_pos_y"/>
+        <Option value="100" type="double" name="component_width"/>
+        <Option value="true" type="bool" name="outputs_collapsed"/>
+        <Option value="true" type="bool" name="parameters_collapsed"/>
+      </Option>
+      <Option value="tabela_opisowa_wydzielenia_f_subarea" type="QString" name="component_description"/>
+      <Option value="40" type="double" name="component_height"/>
+      <Option value="1048" type="double" name="component_pos_x"/>
+      <Option value="849" type="double" name="component_pos_y"/>
+      <Option value="210" type="double" name="component_width"/>
+      <Option value="tabela_opisowa_wydzielenia_f_subarea" type="QString" name="name"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
       <Option value="true" type="bool" name="parameters_collapsed"/>
     </Option>
@@ -2431,7 +2754,7 @@
       <Option value="" type="QString" name="color"/>
       <Option type="Map" name="comment">
         <Option value="231,255,228,255,rgb:0.90588235294117647,1,0.89411764705882357,1" type="QString" name="color"/>
-        <Option value="f_arod_land_use" type="QString" name="component_description"/>
+        <Option value="" type="QString" name="component_description"/>
         <Option value="60" type="double" name="component_height"/>
         <Option value="165" type="double" name="component_pos_x"/>
         <Option value="840" type="double" name="component_pos_y"/>
@@ -2440,9 +2763,9 @@
         <Option value="true" type="bool" name="parameters_collapsed"/>
       </Option>
       <Option value="tabela_wydzielenieuzytek_f_arod_land_use" type="QString" name="component_description"/>
-      <Option value="30" type="double" name="component_height"/>
-      <Option value="195" type="double" name="component_pos_x"/>
-      <Option value="735" type="double" name="component_pos_y"/>
+      <Option value="34" type="double" name="component_height"/>
+      <Option value="988" type="double" name="component_pos_x"/>
+      <Option value="383" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option value="tabela_wydzielenieuzytek_f_arod_land_use" type="QString" name="name"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
@@ -2462,8 +2785,8 @@
       </Option>
       <Option value="uytki_a_uzyt_pol" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="121.72021943573667" type="double" name="component_pos_x"/>
-      <Option value="178.76959247648904" type="double" name="component_pos_y"/>
+      <Option value="113.72021943573667" type="double" name="component_pos_x"/>
+      <Option value="45.76959247648904" type="double" name="component_pos_y"/>
       <Option value="172.6253918495298" type="double" name="component_width"/>
       <Option value="uytki_a_uzyt_pol" type="QString" name="name"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
@@ -2483,8 +2806,8 @@
       </Option>
       <Option value="wydzielenia" type="QString" name="component_description"/>
       <Option value="30" type="double" name="component_height"/>
-      <Option value="765" type="double" name="component_pos_x"/>
-      <Option value="795" type="double" name="component_pos_y"/>
+      <Option value="1027" type="double" name="component_pos_x"/>
+      <Option value="715" type="double" name="component_pos_y"/>
       <Option value="210" type="double" name="component_width"/>
       <Option value="wydzielenia" type="QString" name="name"/>
       <Option value="true" type="bool" name="outputs_collapsed"/>
