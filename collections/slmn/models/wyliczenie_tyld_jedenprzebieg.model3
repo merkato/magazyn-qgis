@@ -313,6 +313,17 @@
               <Option type="Map">
                 <Option type="QString" name="aggregate" value="first_value"/>
                 <Option type="QString" name="delimiter" value=","/>
+                <Option type="QString" name="input" value="&quot;id_dzialki&quot;"/>
+                <Option type="int" name="length" value="0"/>
+                <Option type="QString" name="name" value="id_dzialki"/>
+                <Option type="int" name="precision" value="0"/>
+                <Option type="int" name="sub_type" value="0"/>
+                <Option type="int" name="type" value="10"/>
+                <Option type="QString" name="type_name" value="text"/>
+              </Option>
+              <Option type="Map">
+                <Option type="QString" name="aggregate" value="first_value"/>
+                <Option type="QString" name="delimiter" value=","/>
                 <Option type="QString" name="input" value="&quot;parcel_int_num&quot;"/>
                 <Option type="int" name="length" value="0"/>
                 <Option type="QString" name="name" value="parcel_int_num"/>
@@ -4705,8 +4716,20 @@
   <Option name="modelVariables"/>
   <Option type="QString" name="model_group" value="SLMN"/>
   <Option type="QString" name="model_name" value="Wylicz tyldy i rozlicz powierzchnie"/>
-  <Option type="QString" name="outputGroup" value=""/>
-  <Option name="outputOrder"/>
+  <Option type="QString" name="outputGroup" value="Rozliczenie powierzchni"/>
+  <Option type="StringList" name="outputOrder">
+    <Option type="QString" value="native:extractbyattribute_2:OUTPUT"/>
+    <Option type="QString" value="native:extractbyattribute_3:OUTPUT"/>
+    <Option type="QString" value="native:joinattributestable_1:NON_MATCHING"/>
+    <Option type="QString" value="native:refactorfields_13:OUTPUT"/>
+    <Option type="QString" value="native:refactorfields_12:OUTPUT"/>
+    <Option type="QString" value="native:joinattributestable_12:OUTPUT"/>
+    <Option type="QString" value="native:aggregate_3:OUTPUT"/>
+    <Option type="QString" value="native:extractbyexpression_2:OUTPUT"/>
+    <Option type="QString" value="native:extractbyexpression_3:OUTPUT"/>
+    <Option type="QString" value="native:joinattributestable_7:NON_MATCHING"/>
+    <Option type="QString" value="native:refactorfields_11:OUTPUT"/>
+  </Option>
   <Option type="Map" name="parameterDefinitions">
     <Option type="Map" name="agregacja_powierzchni_wydziele_arodes_int_num">
       <Option type="bool" name="create_by_default" value="true"/>
