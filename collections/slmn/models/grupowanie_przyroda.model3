@@ -401,7 +401,7 @@
         <Option name="PREFIX" type="List">
           <Option type="Map">
             <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
       </Option>
@@ -477,7 +477,7 @@
         <Option name="PREFIX" type="List">
           <Option type="Map">
             <Option name="source" value="2" type="int"/>
-            <Option name="static_value" value="" type="QString"/>
+            <Option name="static_value" type="invalid"/>
           </Option>
         </Option>
       </Option>
@@ -542,7 +542,7 @@
         </Option>
         <Option name="INPUT_2" type="List">
           <Option type="Map">
-            <Option name="parameter_name" value="wydzielenie_opisowe" type="QString"/>
+            <Option name="parameter_name" value="adresy_lene_f_arodes" type="QString"/>
             <Option name="source" value="0" type="int"/>
           </Option>
         </Option>
@@ -756,8 +756,8 @@
             <Option name="source" value="2" type="int"/>
             <Option name="static_value" type="List">
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="&quot;gid&quot;" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="gid" type="QString"/>
@@ -767,8 +767,8 @@
                 <Option name="type_name" value="integer" type="QString"/>
               </Option>
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="&quot;nazwa&quot;" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="nazwa" type="QString"/>
@@ -778,8 +778,8 @@
                 <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="&quot;kod&quot;" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="kod" type="QString"/>
@@ -789,8 +789,8 @@
                 <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="&quot;kodinspire&quot;" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="kodinspire" type="QString"/>
@@ -800,8 +800,8 @@
                 <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="'OB NATURA'" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="kodgrupy" type="QString"/>
@@ -811,8 +811,8 @@
                 <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="'obszar Natura 2000 SOO'" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="kodgrupynazwa" type="QString"/>
@@ -863,8 +863,8 @@
             <Option name="source" value="2" type="int"/>
             <Option name="static_value" type="List">
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="&quot;gid&quot;" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="gid" type="QString"/>
@@ -874,8 +874,8 @@
                 <Option name="type_name" value="integer" type="QString"/>
               </Option>
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="&quot;nazwa&quot;" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="nazwa" type="QString"/>
@@ -885,8 +885,8 @@
                 <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="&quot;kod&quot;" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="kod" type="QString"/>
@@ -896,8 +896,8 @@
                 <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="&quot;kodinspire&quot;" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="kodinspire" type="QString"/>
@@ -907,8 +907,8 @@
                 <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="'OB NATURA'" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="kodgrupy" type="QString"/>
@@ -918,8 +918,8 @@
                 <Option name="type_name" value="text" type="QString"/>
               </Option>
               <Option type="Map">
-                <Option name="alias" value="" type="QString"/>
-                <Option name="comment" value="" type="QString"/>
+                <Option name="alias" type="invalid"/>
+                <Option name="comment" type="invalid"/>
                 <Option name="expression" value="'obszar Natura 2000 OSO'" type="QString"/>
                 <Option name="length" value="0" type="int"/>
                 <Option name="name" value="kodgrupynazwa" type="QString"/>
@@ -1939,6 +1939,7 @@
     </Option>
   </Option>
   <Option name="designerParameterValues" type="Map">
+    <Option name="adresy_lene_f_arodes" value="f_arodes_01f34db1_e4e3_43d4_af79_1188884e5a3b" type="QString"/>
     <Option name="gospoda_bya_pena_idziemy_dalej" type="QgsProcessingOutputLayerDefinition">
       <Option type="Map">
         <Option name="create_options" type="Map">
@@ -1964,6 +1965,7 @@
       </Option>
     </Option>
     <Option name="natura2k__soo" value="GDOS_SpecjalneObszaryOchrony_ea35e309_3914_491a_bf97_7982f7e96aa7" type="QString"/>
+    <Option name="natura_2k__oso" value="GDOS_ObszarySpecjalnejOchrony_c03a722f_bccc_483d_8c7a_1f8d7e304875" type="QString"/>
     <Option name="ochkr" value="GDOS_ObszaryChronionegoKrajobrazu_b3b6a2d5_3c28_4c56_8af5_6d09257e0fba" type="QString"/>
     <Option name="opodst" value="Warstwa_ze_zmienionymi_polami_f786fa63_475c_4ccb_a590_480a491143da" type="QString"/>
     <Option name="park_krajobrazowy" value="GDOS_ParkiKrajobrazowe_7a4b1ffc_a63b_4cb4_a694_08ed4dc9ad6b" type="QString"/>
@@ -1995,7 +1997,6 @@
     <Option name="rezerwat" value="GDOS_Rezerwaty_d17f5186_8274_4c1c_af21_0f56b42b975d" type="QString"/>
     <Option name="tyldy_w_wydzieleniu" value="Pasuj_ce_obiekty_3702fca8_048e_4405_9bfb_1239dd00447f" type="QString"/>
     <Option name="uytek_eko" value="GDOS_UzytkiEkologiczne_fae965dc_6142_4994_a15e_87fe15b8c17e" type="QString"/>
-    <Option name="wydzielenie_opisowe" value="f_arodes_01f34db1_e4e3_43d4_af79_1188884e5a3b" type="QString"/>
   </Option>
   <Option name="groupBoxes"/>
   <Option name="help"/>
@@ -2006,6 +2007,19 @@
   <Option name="outputGroup" value="" type="QString"/>
   <Option name="outputOrder"/>
   <Option name="parameterDefinitions" type="Map">
+    <Option name="adresy_lene_f_arodes" type="Map">
+      <Option name="data_types" type="List">
+        <Option value="5" type="int"/>
+      </Option>
+      <Option name="default" type="invalid"/>
+      <Option name="defaultGui" type="invalid"/>
+      <Option name="description" value="Adresy leśne (f_arodes)" type="QString"/>
+      <Option name="flags" value="0" type="int"/>
+      <Option name="help" value="" type="QString"/>
+      <Option name="metadata"/>
+      <Option name="name" value="adresy_lene_f_arodes" type="QString"/>
+      <Option name="parameter_type" value="vector" type="QString"/>
+    </Option>
     <Option name="gospoda_bya_pena_idziemy_dalej" type="Map">
       <Option name="create_by_default" value="true" type="bool"/>
       <Option name="data_type" value="-1" type="int"/>
@@ -2195,22 +2209,30 @@
       <Option name="name" value="uytek_eko" type="QString"/>
       <Option name="parameter_type" value="vector" type="QString"/>
     </Option>
-    <Option name="wydzielenie_opisowe" type="Map">
-      <Option name="data_types" type="List">
-        <Option value="5" type="int"/>
-      </Option>
-      <Option name="default" type="invalid"/>
-      <Option name="defaultGui" type="invalid"/>
-      <Option name="description" value="Wydzielenie (opisowe)" type="QString"/>
-      <Option name="flags" value="0" type="int"/>
-      <Option name="help" value="" type="QString"/>
-      <Option name="metadata"/>
-      <Option name="name" value="wydzielenie_opisowe" type="QString"/>
-      <Option name="parameter_type" value="vector" type="QString"/>
-    </Option>
   </Option>
   <Option name="parameterOrder"/>
   <Option name="parameters" type="Map">
+    <Option name="adresy_lene_f_arodes" type="Map">
+      <Option name="color" value="" type="QString"/>
+      <Option name="comment" type="Map">
+        <Option name="color" value="" type="QString"/>
+        <Option name="component_description" value="" type="QString"/>
+        <Option name="component_height" value="60" type="double"/>
+        <Option name="component_pos_x" value="351" type="double"/>
+        <Option name="component_pos_y" value="458" type="double"/>
+        <Option name="component_width" value="100" type="double"/>
+        <Option name="outputs_collapsed" value="true" type="bool"/>
+        <Option name="parameters_collapsed" value="true" type="bool"/>
+      </Option>
+      <Option name="component_description" value="adresy_lene_f_arodes" type="QString"/>
+      <Option name="component_height" value="30" type="double"/>
+      <Option name="component_pos_x" value="129" type="double"/>
+      <Option name="component_pos_y" value="461" type="double"/>
+      <Option name="component_width" value="200" type="double"/>
+      <Option name="name" value="adresy_lene_f_arodes" type="QString"/>
+      <Option name="outputs_collapsed" value="true" type="bool"/>
+      <Option name="parameters_collapsed" value="true" type="bool"/>
+    </Option>
     <Option name="natura2k__soo" type="Map">
       <Option name="color" value="" type="QString"/>
       <Option name="comment" type="Map">
@@ -2397,27 +2419,6 @@
       <Option name="component_pos_y" value="285" type="double"/>
       <Option name="component_width" value="150" type="double"/>
       <Option name="name" value="uytek_eko" type="QString"/>
-      <Option name="outputs_collapsed" value="true" type="bool"/>
-      <Option name="parameters_collapsed" value="true" type="bool"/>
-    </Option>
-    <Option name="wydzielenie_opisowe" type="Map">
-      <Option name="color" value="" type="QString"/>
-      <Option name="comment" type="Map">
-        <Option name="color" value="" type="QString"/>
-        <Option name="component_description" value="" type="QString"/>
-        <Option name="component_height" value="60" type="double"/>
-        <Option name="component_pos_x" value="351" type="double"/>
-        <Option name="component_pos_y" value="458" type="double"/>
-        <Option name="component_width" value="100" type="double"/>
-        <Option name="outputs_collapsed" value="true" type="bool"/>
-        <Option name="parameters_collapsed" value="true" type="bool"/>
-      </Option>
-      <Option name="component_description" value="wydzielenie_opisowe" type="QString"/>
-      <Option name="component_height" value="30" type="double"/>
-      <Option name="component_pos_x" value="129" type="double"/>
-      <Option name="component_pos_y" value="461" type="double"/>
-      <Option name="component_width" value="200" type="double"/>
-      <Option name="name" value="wydzielenie_opisowe" type="QString"/>
       <Option name="outputs_collapsed" value="true" type="bool"/>
       <Option name="parameters_collapsed" value="true" type="bool"/>
     </Option>
